@@ -6,12 +6,11 @@
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/jquery.mobile.custom.min.js"></script>
 	<script type="text/javascript" charset="utf-8">
-	function onLoad() {
-        //document.addEventListener("deviceready", onDeviceReady, false);
-        $.mobile.changePage("google.com");
-    }
+	$('#Load').load('http://www.google.co.in');
 	</script>
 </head>
-<body onload="onLoad()">
+<body>
+<div id="Load"></div>
+<hr/>
 </body>
 </html>
