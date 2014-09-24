@@ -39,9 +39,14 @@
          //iabRef.addEventListener('exit', iabClose);
     }
 
+	function alCargar(){
+		window.open('http://google.com', '_system', 'location=yes');	
+	}
+
+
     </script>
 </head>
-<body>
+<body onload="alCargar()">
 <div>
 <p>link test<br /><br />
   <a href="#" onclick="window.open('http://www.wikipedia.org','_self','location=yes')">Wikipedia (webview)</a><br /><br />
